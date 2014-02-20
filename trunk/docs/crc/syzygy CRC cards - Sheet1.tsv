@@ -1,0 +1,11 @@
+META	Separate responsibilities with a specific delimiter so maybe we can in the future turn this doc into the text files via a script. Ok let's agree to use the period character plus space '. ' as delimiter; it is also natural because that's how sentences are written.	Since Java class names have no spaces, use space ' ' as a delimiter.
+Class name	Responsibilities	Collaborators
+Song	Stores information which can be used to identify a song: the name of the song, artist, album name. Also includes an ID as unique key: in any lifespan of the application, the IDs of songs newly added to the Library are strictly increasing.	Artist
+Playlist	Stores the name of the playlist and a list of Song objects. Has an ID field which behaves similarly to that of Song.	Song
+Library	The model of the application. Stores a set of all Song, Artist, Playlist objects. Responsible for changing its state as requested (when the user makes new playlists or downloads new songs); interfaces with Data to do this. Can add new Song, Artist, Playlist to the library, and ensures that the ID field is strictly increasing and never duplicated in a lifespan of the application, even if an object with some ID is deleted.	Playlist Song Artist Data
+Artist	Stores information on artist. Stores songs by the artist. Has an ID field that works similarly to Song.	Song
+View	Responsible for output of visual content. May receive any collection of Song, Playlist, Artist objects and displays them as needed.	Song Playlist Artist
+Interface	Interacts with user and receives user inputs. Parse user inputs into valid instructions.	
+JTunes	The controller of this application. Initializes Library. Uses Interface to receive instructions from user. Sends data involving Song, Playlist, Artist to View to display to user. Passes song files in Library to Player to play.	Interface Library Player Song Playlist Artist
+Player	Responsible for output of audio content. Plays a music file given file path. Stops playing music when requested.	
+Data	Responsible for file interfacing. Parses metadata on songs and playlists stored in particular file into Song and Playlist classes. Stores the locations of actual music files of each song. Update metadata files and song files when required.	Song Playlist Artist

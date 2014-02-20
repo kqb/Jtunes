@@ -1,0 +1,63 @@
+Group letter-step deductions: 0
+
+Some of your assignment 2 marks are tentative at this point: if you improve your code
+based on initial feedback from the TAs, your mark will be adjusted accordingly. However,
+some deductions are fixed and will carry forward.
+
+Every group starts off with an "A++++" (yes, A quadruple-plus) for the combined
+assignment 2 part 1 and assignment 2 part 2.
+For each problem we find, "letter steps" are deducted depending on the type and severity
+of the problem. A letter step is the difference between an A++ and an
+A+ or a B- and a C+. Marks between A+ and A+++ (inclusive) are recorded as an A+.
+
+Your mark will be converted to a percentage grade based on the University of
+Toronto grading policy
+(http://www.writing.utoronto.ca/advice/general/grading-policy). Except for A++++,
+which will be recorded as 100%, percentage grades will be the average of the
+letter-grade range (e.g. a B will be recorded as 74.5, the average between 73
+and 76).
+
+Groups that submitted nothing at all will receive a 0.
+
+=== Code ===
+    Design (This mark is subject to change after part 2 is submitted)
+    0       Reasonable program design.
+    
+    Completeness (Assignment 2 part 1)
+    0       Connected to jTunes Cloud
+    
+    Code comments (This mark is subject to change after part 2 is submitted)
+    0       Good commenting
+    
+    Code style (This mark is subject to change after part 2 is submitted)
+    0       No major problems
+
+
+=== Use of Subversion ===
+    Commit sizes (Assignment 2 Part 1)
+    0       Commits were mostly of an appropriate size
+
+    Commit logs (Assignment 2 Part 1)
+    0       Commit messages were meaningful
+    
+    Commit content (Assignment 2 Part 1)
+    0       No extraneous files were committed
+
+
+==== Scrum ====
+    Distribution of work (Assignment 2 Part 1)
+    0       At least one contribution from each group member
+    
+    Product backlog (Assignment 2 Part 1)
+    0       Product backlog looks reasonable
+
+    
+    Sprint backlog (Assignment 2 Part 1)
+    -2      Sprint backlog not drawn from product backlog
+    -1      Poor prioritization of items from backlog for each sprint.
+
+    The Basics (Assignment 2 Part 1)
+
+
+
+    Additional comments

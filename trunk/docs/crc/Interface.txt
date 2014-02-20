@@ -1,0 +1,5 @@
+Class name: Interface
+Responsibilities:
+ * Interacts with user and receives user inputs
+ * Parse user inputs into valid instructions
+Collaborators:

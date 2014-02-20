@@ -1,0 +1,14 @@
+Class name: JTunes
+Responsibilities:
+ * The controller of this application
+ * Initializes Library
+ * Uses Interface to receive instructions from user
+ * Sends data involving Song, Playlist, Artist to View to display to user
+ * Passes song files in Library to Player to play
+Collaborators:
+ * Interface
+ * Library
+ * Player
+ * Song
+ * Playlist
+ * Artist

@@ -1,0 +1,26 @@
+Sprint backlog 1
+    / Finish high level code structure
+
+- Begin skeleton code for following features [Headed by Michael]
+	- Should probably be a method found under User class?
+		- Create a JTunes account
+ (takes name, email, password and creates account)
+			- Method will check if account has already been created with existing email/name before creation
+			- Check if account has been created successfully and return if true (necessary feature?)
+		- Log in to a JTunes account
+   
+		- Log out of a JTunes account
+
+	- Receive information on available songs from JTunes cloud
+
+		- Should be done in a Cloud class
+			- Responsible for all of the programs interactions with the cloud
+		- Also should exist a Local class
+			- Reads local data on the hard drive (downloaded songs, existing playlists, etc)
+	- Download a song
+  
+		- Implement in the Cloud class
+	- Adding a new song to user's library
+		- Implement in the Cloud class
+- Use as much of the code from the previous assignment as possible, though drastic rewrite may be necessary
+- Everyone else will work off of this skeleton code created by Michael

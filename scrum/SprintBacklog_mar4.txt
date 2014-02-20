@@ -1,0 +1,13 @@
+Team: 
+- Talk to Michael about program design, get in contact with him
+- Complete testing for whole program
+
+
+Eva:
+-Complete UI class , combine with GUI 
+
+Katie:
+-Complete GUI 
+Senisa:
+-Look into the new server, XML code 
+Michael:

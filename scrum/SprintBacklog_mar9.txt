@@ -1,0 +1,26 @@
+Completed since last sprint:
+- Architecture of program is redesigned, more simplistic than before, to improve code comprehension between members and efficiency in debugging [Katie]
+	-Controller package removed
+		-Exec class removed
+		-User class moved to model, also reworked, to only store info related to a user
+	-Big rework on Library class, please see ProductBasklogPT2 for details
+	-Removed abstract PlayableCollection, UI, Player abstract classes (not working with current design)
+	-Removed Local, CloudAndLocal, and integrated their functions into Cloud
+	-New project repo for part 2 @ https://drproject.cdf.toronto.edu/svn/csc207-2013-01/syzygy/branch/assignment2p2/JTunes
+	
+- GUI has been updated, now can display cloud and user songs, login, create user, and download + add songs to user library [Katie]
+- Cloud updated to accommodate new XML formatting and hex decoding [Katie]
+- Bug fixed in a lot of classes by debugging on GUI [Katie]
+- Backbone and design for playlist is complete [Eva]
+
+TODO for Monday:
+- Redesign player, a player GUI that will play songs selected [Katie]
+- Finish main GUI, polish the layout if time permits [Katie]
+	-Implementing playlist in GUI if playlist class is complete
+	-Associate player GUI into main GUI, or maybe integrating the function of both interface into one (haven't decided yet)
+	
+- Work on finishing PlayList class [Eva + Senisa]
+- Work on user guide [Eva]
+- Do/fix JavaDocs for classes, methods that are missing it [Senisa]
+- (Ongoing) Start on writing testing strategy [Senisa]
+- (Ongoing) Testing and debugging thru the GUI [Katie]

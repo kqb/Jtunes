@@ -1,0 +1,18 @@
+- Architecture of program is done [Michael]
+- Player class is done [Senisa]
+- Cloud is done [Katie]
+- Data
+	- Downloading/Getting user library from the Cloud [Katie/Michael]
+
+TODO for Thursday:
+- Command line UI
+	- Prompt user to log-in [Eva]
+	- Main loop of the program: creating help functions(if necessary), list, play, stop, other commands (but only handling valid inputs)[Eva]
+- Logic for User
+	- Creating user account [Michael]
+	- Checking if their account exists [Michael]
+- Data
+	- Parsing local file structure information (accessing information for files that aren't hard-coded into the program) [Michael]
+- Testing through the UI [Senisa]
+- Java docstrings [Michael]
+- Possibly a GUI [Katie]

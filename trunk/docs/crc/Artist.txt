@@ -1,0 +1,7 @@
+Class name: Artist
+Responsibilities:
+ * Stores information on artist
+ * Stores songs by the artist
+ * Has an ID field that works similarly to Song
+Collaborators:
+ * Song

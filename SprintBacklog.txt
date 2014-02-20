@@ -1,0 +1,4 @@
+Sprint Backlog 1(Syzygy):
+
+1: to implement the high-level backbone of jTunes (classes from user stories)
+2: complete the jTunes cloud methods

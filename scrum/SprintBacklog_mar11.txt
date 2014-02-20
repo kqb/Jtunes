@@ -1,0 +1,15 @@
+By Thursday:
+-To finalize and test all programs/classes to make sure they are all working.
+-To complete the extra credit/User guide
+
+
+Eva:
+   -Double checking Playlist.java class(cleaning up code and filling in missing lines in javadoc)
+   - Complete the User Guide
+
+
+Katie:
+   - Put in the user guide into the Gui
+
+Senisa:
+   - Complete the extra credit on automatated testing

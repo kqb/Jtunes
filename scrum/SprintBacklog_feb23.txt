@@ -1,0 +1,31 @@
+Sprint Backlog 2(Syzygy):
+
+Notes from group meeting:
+
+* Figure out how to access URL library so that we can print out list of songs [Michael/Katie]
+- Class for User [Michael]
+	- Create User method createUser(name, email, password)
+	* Don't store user information locally, unsafe
+	- User constructor
+- Cloud Class [Katie]
+	- User as a subclass of Cloud?
+		- Because you're creating a User in the Cloud Server
+	- Method to log in (boolean, if True do it, if False don't)
+	- Method to list songs (Log-in boolean, if True list user's songs, if False list public songs)
+	- Method to get songs (Log-in boolean, if True download song, if False error song not in library or something)
+- JTunes main class [Michael]
+	- User prompt
+		- Download (calls get song method from Cloud class)
+		- Check tokens (returns number of available tokens. if at zero, state "no more tokens")
+- Music Library [Michael]
+	- Map for Song ID: Song object
+	- Method to create playlists
+- Player class [Senisa]
+	- Extend from abstract player into another method for playing midi files in Java
+	- Method to start playing
+	- Method to stop playing
+- UI [Eva]
+	- Command line UI
+- GUI [Katie/Eva]
+	- Pop out GUI (displays library of song, currently playing song, start/stop buttons)
+	- Not required feature, work on if there is time

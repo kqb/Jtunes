@@ -1,0 +1,6 @@
+Class name: Song
+Responsibilities:
+ * Stores information which can be used to identify a song: the name of the song, artist, album name
+ * Also includes an ID as unique key: in any lifespan of the application, the IDs of songs newly added to the Library are strictly increasing
+Collaborators:
+ * Artist

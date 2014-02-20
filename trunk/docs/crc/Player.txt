@@ -1,0 +1,6 @@
+Class name: Player
+Responsibilities:
+ * Responsible for output of audio content
+ * Plays a music file given file path
+ * Stops playing music when requested
+Collaborators:

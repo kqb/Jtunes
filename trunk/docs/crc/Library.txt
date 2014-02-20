@@ -1,0 +1,11 @@
+Class name: Library
+Responsibilities:
+ * The model of the application
+ * Stores a set of all Song, Artist, Playlist objects
+ * Responsible for changing its state as requested (when the user makes new playlists or downloads new songs); interfaces with Data to do this
+ * Can add new Song, Artist, Playlist to the library, and ensures that the ID field is strictly increasing and never duplicated in a lifespan of the application, even if an object with some ID is deleted
+Collaborators:
+ * Playlist
+ * Song
+ * Artist
+ * Data

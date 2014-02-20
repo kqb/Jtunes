@@ -1,0 +1,6 @@
+Class name: Playlist
+Responsibilities:
+ * Stores the name of the playlist and a list of Song objects
+ * Has an ID field which behaves similarly to that of Song
+Collaborators:
+ * Song

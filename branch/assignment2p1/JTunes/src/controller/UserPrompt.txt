@@ -1,0 +1,83 @@
+package ui;
+import controller.User;
+import java.util.Scanner;
+import java.util.regex.Pattern;
+
+/*
+ * Prompts the user for inputs for logging in and to run the JTunes function
+ * using the abstract class UI
+ * @author Eva Kung
+ */
+public class UserPrompt extends UI {
+	private static String retry = "retry";
+	private static String email;
+	private static String password;
+	private static String name;
+	private static User user;
+	private static String quit = "quit";
+	private static String help = "Type 'quit' to exit the library, type 'my song' to list songs on your account, " +
+			"type 'list all songs' to list all songs on the cloud service";
+	
+	//obtaining user info w/ user prompt
+	public static void userInfo() throws Exception{
+		Scanner scan = new Scanner( System.in );
+		String input = "";
+		boolean accExist = false;
+		System.out.println("Please log in");
+		System.out.println("Email:");
+		
+		
+		while (!input.contains(quit) || input.contains(retry)){		
+			input = scan.next();
+			String emailMatch = ".+\\@.+\\..+";
+			boolean correctEmail = Pattern.matches(emailMatch, input);
+			//regex to match if emails in the form of "xxx@yyy.zzz"
+			if(!correctEmail){
+				System.out.println("Invalid email address, please try again: ");
+				input = scan.next();
+			}else if(correctEmail
+					){
+				email = input;
+				System.out.println("Password: " +"");
+				input = scan.next();
+				password = input;
+				accExist = User.exists(email, input);
+				if (accExist){
+					System.out.println("You have successfully logged in!");
+					user = new User(email, password);
+					System.out.println(user);
+				}else{
+					System.out.println("Account does not exist(type 'retry' to try again, " +
+							"or 'quit' to quit the program)");
+					input = scan.next();
+				
+					if (input.contains(retry)){
+						input = scan.next();
+						continue;
+					}
+					
+				}	
+			}
+		}if(input.contains(quit)){
+			System.exit(0);
+			System.out.println("You have quit the program.");
+		}
+	}
+
+	@Override
+	public User logInUser() {
+		return user;
+	}
+
+	@Override
+	public boolean run(User user) {
+		return false;
+	}
+
+	
+	
+	public static void main(String[] args) throws Exception{
+		userInfo();
+		System.out.println(user.getPassword());
+	}		
+}

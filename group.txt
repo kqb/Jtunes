@@ -1,0 +1,7 @@
+Assignment 2 repository: https://stanley.cdf.toronto.edu/svn/csc207-2013-01/syzygy/
+You may not have access, yet due to some technical difficulties. Please try again later. You can still contact your new team members via e-mail.
+Team e-mail addresses:
+    c2soenar@cdf.toronto.edu
+    c2yumich@cdf.toronto.edu
+    c2lokati@cdf.toronto.edu
+    c2kungfa@cdf.toronto.edu

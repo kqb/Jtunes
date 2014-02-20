@@ -1,0 +1,22 @@
+Notes from group meeting:
+- Figure out how to access URL library so that we can print out list of songs
+- Read the thing that Michael posted
+	- Hashmap to match song ID to Song object
+- Class for User
+	- Create User method createUser(name, email, password)
+	- Don't store user information locally, unsafe
+	- User constructor
+	- 
+- Cloud Class
+	- User as a subclass of Cloud?
+		- Because you're creating a User in the Cloud Server
+	- Method to log in (boolean, if True do it, if False don't)
+	- Method to list songs (Log-in boolean, if True list user's songs, if False list public songs)
+	- Method to get songs (Log-in boolean, if True download song, if False error song not in library or something)
+- JTunes main class
+	- User prompt
+		- download (calls get song method from Cloud class)
+		- check tokens (returns number of available tokens. if at zero, state "no more tokens")
+- Music Library
+	- Map for Song ID: Song object
+	- Method to create playlists

@@ -1,0 +1,46 @@
+Product Backlog Part 2(Syzygy)
+Ranked by priority - Highest to lowest (1 = highest):
+- indicates feature is expected by the end of part 1
+: indicates feature is a possible extension for part 2
+
+(5) = GUI
+    - Show users a playlist of songs
+    - Get a playlist/song selection from user to indicate what the user wants played
+    - Playback control (play, pause, stop buttons)
+    : Let user create a playlist of songs
+    : Let user view all playlists
+    : Show user detailed information of a song
+
+(4) = Music player 
+	- Play a song
+    - Stop playing a song
+    - Play a playlist
+	: Play a playlist in random order
+
+(1) = Music library
+	- Initialize and store a list of songs (both info and content) in local storage
+	- Initialize and store a list of song infos for the user, fetching data from jTunesCloud
+	- Initialize and store a list of song infos for all the songs avaliable from jTunesCloud, fetching data from jTunesCloud
+	- Matching local songs (content) to the songs infos of a specific user, to prepare for playback
+	- Adding a new song to user's library 
+
+(2) = JTunes cloud
+    - Create a JTunes account
+    - Log in to a JTunes account
+    - Log out of a JTunes account
+	- Receive information on available songs from JTunes cloud
+	- Downloading a new song to local storage
+	
+(3) = Local persistance 
+	- Storing model state on hard drive so user playlists are kept and songs do not have to be redownloaded
+	- Parsing model state from hard drive to retain user playlists and find local song files
+
+(6) = Playlist
+	- Create a playlist file to local storage
+	- Delete a playlist file from local storage
+	- Read and parse playlist files and initialize a playlist
+
+(7) = User Guide
+    - A list of instructions/"how to:" for users to read about
+    - Detailed and concise to the point for users to understand how to access the GUI (JTunes music player)
+    - Visuals for showing users how to navigate through the JTunes program

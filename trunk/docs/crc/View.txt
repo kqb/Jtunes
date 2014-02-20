@@ -1,0 +1,8 @@
+Class name: View
+Responsibilities:
+ * Responsible for output of visual content
+ * May receive any collection of Song, Playlist, Artist objects and displays them as needed
+Collaborators:
+ * Song
+ * Playlist
+ * Artist

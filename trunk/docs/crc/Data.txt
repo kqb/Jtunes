@@ -1,0 +1,10 @@
+Class name: Data
+Responsibilities:
+ * Responsible for file interfacing
+ * Parses metadata on songs and playlists stored in particular file into Song and Playlist classes
+ * Stores the locations of actual music files of each song
+ * Update metadata files and song files when required
+Collaborators:
+ * Song
+ * Playlist
+ * Artist
